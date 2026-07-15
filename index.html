@@ -24,8 +24,7 @@
     .id-item b{display:block;font-size:15px;margin-bottom:3px}.id-item span{color:var(--muted);font-size:14px}
     .contact{display:flex;flex-wrap:wrap;gap:10px}.pill{display:inline-flex;align-items:center;min-height:44px;padding:0 15px;border:1px solid var(--border);border-radius:12px;background:white;color:var(--text);font-size:14px}.pill.primary{background:var(--text);color:#fff;border-color:var(--text)}
     .visual{position:relative;display:flex;align-items:flex-end;justify-content:center;background:radial-gradient(circle at 25% 20%,#E5F2FC 0 22%,transparent 23%),linear-gradient(135deg,#f4f7fb 0%,#f9f8f7 100%);min-height:520px;padding:36px}
-    .portrait{width:min(78%,360px);aspect-ratio:1/1;border-radius:32px;background:linear-gradient(145deg,#2C2C2B,#54514d);display:grid;place-items:center;color:white;position:relative;box-shadow:0 24px 70px rgba(44,44,43,.18)}
-    .portrait::before{content:"张";font-size:148px;font-weight:750;letter-spacing:-8px;opacity:.96}.portrait::after{content:"CMC";position:absolute;right:24px;bottom:22px;padding:8px 12px;border-radius:10px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.24);font-weight:700;letter-spacing:.08em}
+    .portrait{width:min(78%,360px);aspect-ratio:1/1;border-radius:32px;object-fit:cover;display:block;position:relative;box-shadow:0 24px 70px rgba(44,44,43,.18)}
     .badge{position:absolute;left:32px;top:32px;background:white;border:1px solid var(--border);border-radius:14px;padding:14px 16px;max-width:230px;box-shadow:0 12px 36px rgba(0,0,0,.06)}.badge strong{display:block}.badge span{font-size:13px;color:var(--muted)}
     section{margin-top:28px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.section-card{padding:28px}.section-title{font-size:15px;color:var(--blue);font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:0 0 16px}h2{font-size:28px;line-height:1.25;margin:0 0 16px;letter-spacing:-.4px}.lead{color:var(--muted);margin:0;font-size:16px}
     .services{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}.service{padding:16px;border:1px solid var(--border);border-radius:12px;background:var(--soft);font-weight:650}.service small{display:block;color:var(--muted);font-weight:400;margin-top:4px}
@@ -55,7 +54,7 @@
       </article>
       <aside class="card visual" aria-label="个人品牌视觉区">
         <div class="badge"><strong>联系我</strong><span>扫码添加好友，直接与我对话。</span></div>
-        <div class="portrait" role="img" aria-label="张相波个人标识"></div>
+        <img class="portrait" src="wechat-iamxobo.JPG" alt="张相波个人标识" />
       </aside>
     </div>
 
