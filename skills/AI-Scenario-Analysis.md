@@ -1,5 +1,4 @@
 ---
-_archived: true
 _organized: true
 ---
 
